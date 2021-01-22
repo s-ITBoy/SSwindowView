@@ -17,7 +17,8 @@ import the header file into any class where you wish to make use of the function
 [SSwindowView showView:contentView contentMode:UIViewContentModeCenter];
 
 
-当您不使用cocoapod导入时，也可以直接下载代码导入到您的项目中，只需要将SSmarqueeV.h和SSmarqueeV.m文件导入到您的项目中即可,下载的代码中有关于SSmarqueeViiew的使用教程demo
+当您不使用cocoapod导入时，也可以直接下载代码导入到您的项目中，只需要将SSwindowView.h和SSwindowView.m文件导入到您的项目中即可,下载的代码中有关于SSwindowView的使用教程demo
+
 在SSwindowView.h文件中 有公开的方法如下：
 /**
  *弹框展示
