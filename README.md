@@ -32,4 +32,5 @@ import the header file into any class where you wish to make use of the function
 #import <SSwindowView.h>
 
 然后在对应需求的地方直接调用方法：
+
 [SSwindowView showView:contentView contentMode:UIViewContentModeCenter];
