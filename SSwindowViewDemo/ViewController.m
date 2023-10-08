@@ -33,10 +33,10 @@
 }
 
 - (void)clickBtn {
-    if ([SSwindowView isShowCustomView]) {
-        [SSwindowView dismissCustomView];
+    if ([SSwindowView ss_isShowCustomView]) {
+        [SSwindowView ss_dismissCustomView:YES];
     }else {
-        [SSwindowView showView:self.lab contentMode:UIViewContentModeRight];
+        [SSwindowView ss_showView:self.lab position:SSContentPositionRight];
     }
     
 }
